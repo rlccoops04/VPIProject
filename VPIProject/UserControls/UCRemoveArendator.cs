@@ -32,6 +32,7 @@ namespace VPIProject
                     }
                 }
             }
+            cbArendator.Text = "";
         }
 
         private void UCRemoveArendator_Load(object sender, EventArgs e)

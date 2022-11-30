@@ -31,6 +31,7 @@ namespace VPIProject
                         db.SaveChanges();
                     }
                 }
+                cbRooms.Text = "";
             }
         }
 

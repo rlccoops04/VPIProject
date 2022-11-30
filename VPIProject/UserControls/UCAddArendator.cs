@@ -43,5 +43,10 @@ namespace VPIProject
                 tbNomTel.Text = "";
             }
         }
+
+        private void UCAddArendator_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

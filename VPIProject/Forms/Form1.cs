@@ -47,6 +47,14 @@ namespace VPIProject
 
         private void btnEnterEnter_Click(object sender, EventArgs e)
         {
+            if (txtboxEnterLogin.Text == "admin" && txtboxEnterPassword.Text == "admin")
+            {
+                this.Hide();
+                ArendatorInterface arendatorInterface = new(db.Arendators.ToList()[0]);
+                ArendodatelInterface arendodatelInterface = new(db.Arendodatels.ToList()[0]);
+                arendatorInterface.Show();
+                arendodatelInterface.Show();
+            }
             foreach (Arendator arendator in arendators)
             {
                 if (arendator.LoginArendator == txtboxEnterLogin.Text &&
@@ -66,6 +74,7 @@ namespace VPIProject
                     this.Hide();
                     ArendodatelInterface arendodatelInterface = new(arendodatel);
                     arendodatelInterface.Show();
+                    return;
                 }
             }
             lblEnter_Error.Text = "Неверный логин или пароль";

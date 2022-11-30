@@ -123,7 +123,7 @@
             // 
             // btnRemoveRoom
             // 
-            this.btnRemoveRoom.Location = new System.Drawing.Point(835, 31);
+            this.btnRemoveRoom.Location = new System.Drawing.Point(853, 31);
             this.btnRemoveRoom.Name = "btnRemoveRoom";
             this.btnRemoveRoom.Size = new System.Drawing.Size(131, 50);
             this.btnRemoveRoom.TabIndex = 8;
@@ -133,7 +133,7 @@
             // 
             // btnRemoveArendator
             // 
-            this.btnRemoveArendator.Location = new System.Drawing.Point(835, 87);
+            this.btnRemoveArendator.Location = new System.Drawing.Point(853, 87);
             this.btnRemoveArendator.Name = "btnRemoveArendator";
             this.btnRemoveArendator.Size = new System.Drawing.Size(131, 50);
             this.btnRemoveArendator.TabIndex = 9;
@@ -143,7 +143,7 @@
             // 
             // btnRemoveDogovor
             // 
-            this.btnRemoveDogovor.Location = new System.Drawing.Point(835, 143);
+            this.btnRemoveDogovor.Location = new System.Drawing.Point(853, 143);
             this.btnRemoveDogovor.Name = "btnRemoveDogovor";
             this.btnRemoveDogovor.Size = new System.Drawing.Size(131, 50);
             this.btnRemoveDogovor.TabIndex = 10;
@@ -155,7 +155,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(978, 561);
+            this.ClientSize = new System.Drawing.Size(996, 489);
             this.Controls.Add(this.btnRemoveDogovor);
             this.Controls.Add(this.btnRemoveArendator);
             this.Controls.Add(this.btnRemoveRoom);

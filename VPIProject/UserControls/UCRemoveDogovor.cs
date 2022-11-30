@@ -31,6 +31,7 @@ namespace VPIProject
                     }
                 }
             }
+            cbDogovors.Text = "";
         }
 
         private void UCRemoveDogovor_Load(object sender, EventArgs e)

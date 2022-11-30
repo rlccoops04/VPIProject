@@ -32,7 +32,7 @@ namespace VPIProject
                 if (!unfreerooms.Contains(room.NumRoom))
                 {
                     UCRoom ucRoom = new(room);
-                    ucRoom.Location = new Point(25, 150);
+                    ucRoom.Location = new Point(91, 150);
                     ucRoom.Hide();
                     Controls.Add(ucRoom);
                     roomList.Add(ucRoom);
@@ -100,6 +100,11 @@ namespace VPIProject
                 btnNext.Enabled = false;
             }
             btnPrev.Enabled = false;
+            txtboxSpace.Text = "";
+            txtboxFloor.Text = "";
+            txtboxCost.Text = "";
+            cbCondition.Text = "";
+            cbFurniture.Text = "";
         }
 
         private void btnNext_Click(object sender, EventArgs e)

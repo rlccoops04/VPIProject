@@ -38,12 +38,12 @@
             this.dgvArendators.AllowUserToDeleteRows = false;
             this.dgvArendators.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dgvArendators.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvArendators.Location = new System.Drawing.Point(60, 48);
+            this.dgvArendators.Location = new System.Drawing.Point(3, 18);
             this.dgvArendators.Name = "dgvArendators";
             this.dgvArendators.ReadOnly = true;
             this.dgvArendators.RowHeadersWidth = 51;
             this.dgvArendators.RowTemplate.Height = 29;
-            this.dgvArendators.Size = new System.Drawing.Size(630, 116);
+            this.dgvArendators.Size = new System.Drawing.Size(630, 302);
             this.dgvArendators.TabIndex = 1;
             // 
             // UCAllArendators
@@ -53,7 +53,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Controls.Add(this.dgvArendators);
             this.Name = "UCAllArendators";
-            this.Size = new System.Drawing.Size(750, 360);
+            this.Size = new System.Drawing.Size(638, 360);
             this.Load += new System.EventHandler(this.UCAllArendators_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvArendators)).EndInit();
             this.ResumeLayout(false);

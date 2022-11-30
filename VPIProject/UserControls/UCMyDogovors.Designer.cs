@@ -38,12 +38,12 @@
             this.dgvDogovors.AllowUserToDeleteRows = false;
             this.dgvDogovors.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dgvDogovors.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDogovors.Location = new System.Drawing.Point(28, 27);
+            this.dgvDogovors.Location = new System.Drawing.Point(3, 19);
             this.dgvDogovors.Name = "dgvDogovors";
             this.dgvDogovors.ReadOnly = true;
             this.dgvDogovors.RowHeadersWidth = 51;
             this.dgvDogovors.RowTemplate.Height = 29;
-            this.dgvDogovors.Size = new System.Drawing.Size(630, 116);
+            this.dgvDogovors.Size = new System.Drawing.Size(630, 302);
             this.dgvDogovors.TabIndex = 0;
             // 
             // UCMyDogovors
@@ -53,7 +53,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.dgvDogovors);
             this.Name = "UCMyDogovors";
-            this.Size = new System.Drawing.Size(750, 360);
+            this.Size = new System.Drawing.Size(638, 360);
             this.Load += new System.EventHandler(this.UCMyDogovors_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDogovors)).EndInit();
             this.ResumeLayout(false);

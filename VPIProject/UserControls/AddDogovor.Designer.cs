@@ -42,7 +42,7 @@
             // tbDateStart
             // 
             this.tbDateStart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbDateStart.Location = new System.Drawing.Point(254, 52);
+            this.tbDateStart.Location = new System.Drawing.Point(345, 45);
             this.tbDateStart.Name = "tbDateStart";
             this.tbDateStart.PlaceholderText = "01.01.2000";
             this.tbDateStart.Size = new System.Drawing.Size(125, 27);
@@ -51,7 +51,7 @@
             // tbDateEnd
             // 
             this.tbDateEnd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbDateEnd.Location = new System.Drawing.Point(254, 109);
+            this.tbDateEnd.Location = new System.Drawing.Point(345, 102);
             this.tbDateEnd.Name = "tbDateEnd";
             this.tbDateEnd.PlaceholderText = "01.01.2000";
             this.tbDateEnd.Size = new System.Drawing.Size(125, 27);
@@ -60,7 +60,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 29);
+            this.label1.Location = new System.Drawing.Point(135, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 20);
             this.label1.TabIndex = 5;
@@ -69,7 +69,7 @@
             // cbNumRoom
             // 
             this.cbNumRoom.FormattingEnabled = true;
-            this.cbNumRoom.Location = new System.Drawing.Point(44, 52);
+            this.cbNumRoom.Location = new System.Drawing.Point(135, 45);
             this.cbNumRoom.Name = "cbNumRoom";
             this.cbNumRoom.Size = new System.Drawing.Size(151, 28);
             this.cbNumRoom.TabIndex = 6;
@@ -77,7 +77,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(44, 83);
+            this.label2.Location = new System.Drawing.Point(135, 76);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(85, 20);
             this.label2.TabIndex = 7;
@@ -86,7 +86,7 @@
             // lblDateStart
             // 
             this.lblDateStart.AutoSize = true;
-            this.lblDateStart.Location = new System.Drawing.Point(257, 29);
+            this.lblDateStart.Location = new System.Drawing.Point(348, 22);
             this.lblDateStart.Name = "lblDateStart";
             this.lblDateStart.Size = new System.Drawing.Size(164, 20);
             this.lblDateStart.TabIndex = 8;
@@ -95,7 +95,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(254, 86);
+            this.label4.Location = new System.Drawing.Point(345, 79);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(191, 20);
             this.label4.TabIndex = 9;
@@ -104,14 +104,14 @@
             // cbArendator
             // 
             this.cbArendator.FormattingEnabled = true;
-            this.cbArendator.Location = new System.Drawing.Point(44, 106);
+            this.cbArendator.Location = new System.Drawing.Point(135, 99);
             this.cbArendator.Name = "cbArendator";
             this.cbArendator.Size = new System.Drawing.Size(151, 28);
             this.cbArendator.TabIndex = 10;
             // 
             // btnAddDogovor
             // 
-            this.btnAddDogovor.Location = new System.Drawing.Point(169, 164);
+            this.btnAddDogovor.Location = new System.Drawing.Point(260, 157);
             this.btnAddDogovor.Name = "btnAddDogovor";
             this.btnAddDogovor.Size = new System.Drawing.Size(136, 48);
             this.btnAddDogovor.TabIndex = 11;
@@ -134,7 +134,7 @@
             this.Controls.Add(this.tbDateEnd);
             this.Controls.Add(this.tbDateStart);
             this.Name = "AddDogovor";
-            this.Size = new System.Drawing.Size(473, 233);
+            this.Size = new System.Drawing.Size(638, 233);
             this.Load += new System.EventHandler(this.AddDogovor_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

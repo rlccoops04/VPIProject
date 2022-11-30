@@ -34,7 +34,7 @@
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(430, 300);
+            this.btnNext.Location = new System.Drawing.Point(455, 302);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(100, 40);
             this.btnNext.TabIndex = 0;
@@ -44,7 +44,7 @@
             // 
             // btnPrev
             // 
-            this.btnPrev.Location = new System.Drawing.Point(50, 300);
+            this.btnPrev.Location = new System.Drawing.Point(75, 302);
             this.btnPrev.Name = "btnPrev";
             this.btnPrev.Size = new System.Drawing.Size(100, 40);
             this.btnPrev.TabIndex = 1;
@@ -56,11 +56,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Controls.Add(this.btnPrev);
             this.Controls.Add(this.btnNext);
             this.Name = "UCKatalog";
-            this.Size = new System.Drawing.Size(587, 360);
+            this.Size = new System.Drawing.Size(638, 360);
             this.Load += new System.EventHandler(this.UCKatalog_Load);
             this.ResumeLayout(false);
 

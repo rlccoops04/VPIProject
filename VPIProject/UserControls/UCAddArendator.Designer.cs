@@ -43,7 +43,7 @@
             // 
             // tbLogin
             // 
-            this.tbLogin.Location = new System.Drawing.Point(28, 45);
+            this.tbLogin.Location = new System.Drawing.Point(76, 37);
             this.tbLogin.Name = "tbLogin";
             this.tbLogin.Size = new System.Drawing.Size(125, 27);
             this.tbLogin.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             this.lblLogin.AutoSize = true;
             this.lblLogin.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblLogin.Location = new System.Drawing.Point(28, 17);
+            this.lblLogin.Location = new System.Drawing.Point(76, 13);
             this.lblLogin.Name = "lblLogin";
             this.lblLogin.Size = new System.Drawing.Size(65, 25);
             this.lblLogin.TabIndex = 31;
@@ -62,7 +62,7 @@
             // 
             this.lblReg_Password.AutoSize = true;
             this.lblReg_Password.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblReg_Password.Location = new System.Drawing.Point(28, 94);
+            this.lblReg_Password.Location = new System.Drawing.Point(76, 90);
             this.lblReg_Password.Name = "lblReg_Password";
             this.lblReg_Password.Size = new System.Drawing.Size(78, 25);
             this.lblReg_Password.TabIndex = 32;
@@ -72,7 +72,7 @@
             // 
             this.lblReg_Surname.AutoSize = true;
             this.lblReg_Surname.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblReg_Surname.Location = new System.Drawing.Point(192, 17);
+            this.lblReg_Surname.Location = new System.Drawing.Point(240, 13);
             this.lblReg_Surname.Name = "lblReg_Surname";
             this.lblReg_Surname.Size = new System.Drawing.Size(91, 25);
             this.lblReg_Surname.TabIndex = 35;
@@ -81,10 +81,10 @@
             // lblReg_Name
             // 
             this.lblReg_Name.AutoSize = true;
-            this.lblReg_Name.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblReg_Name.Location = new System.Drawing.Point(192, 94);
+            this.lblReg_Name.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblReg_Name.Location = new System.Drawing.Point(240, 90);
             this.lblReg_Name.Name = "lblReg_Name";
-            this.lblReg_Name.Size = new System.Drawing.Size(49, 25);
+            this.lblReg_Name.Size = new System.Drawing.Size(44, 23);
             this.lblReg_Name.TabIndex = 36;
             this.lblReg_Name.Text = "Имя";
             // 
@@ -92,7 +92,7 @@
             // 
             this.lblReg_NumTel.AutoSize = true;
             this.lblReg_NumTel.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblReg_NumTel.Location = new System.Drawing.Point(362, 13);
+            this.lblReg_NumTel.Location = new System.Drawing.Point(410, 13);
             this.lblReg_NumTel.Name = "lblReg_NumTel";
             this.lblReg_NumTel.Size = new System.Drawing.Size(87, 25);
             this.lblReg_NumTel.TabIndex = 37;
@@ -100,42 +100,42 @@
             // 
             // tbPassword
             // 
-            this.tbPassword.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbPassword.Location = new System.Drawing.Point(28, 122);
+            this.tbPassword.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.tbPassword.Location = new System.Drawing.Point(76, 116);
             this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(125, 32);
+            this.tbPassword.Size = new System.Drawing.Size(125, 27);
             this.tbPassword.TabIndex = 38;
             // 
             // tbSurname
             // 
-            this.tbSurname.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbSurname.Location = new System.Drawing.Point(192, 40);
+            this.tbSurname.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.tbSurname.Location = new System.Drawing.Point(240, 37);
             this.tbSurname.Name = "tbSurname";
-            this.tbSurname.Size = new System.Drawing.Size(127, 32);
+            this.tbSurname.Size = new System.Drawing.Size(127, 27);
             this.tbSurname.TabIndex = 39;
             // 
             // tbName
             // 
-            this.tbName.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbName.Location = new System.Drawing.Point(192, 122);
+            this.tbName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.tbName.Location = new System.Drawing.Point(240, 116);
             this.tbName.Name = "tbName";
-            this.tbName.Size = new System.Drawing.Size(127, 32);
+            this.tbName.Size = new System.Drawing.Size(127, 27);
             this.tbName.TabIndex = 40;
             // 
             // tbNomTel
             // 
-            this.tbNomTel.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbNomTel.Location = new System.Drawing.Point(362, 41);
+            this.tbNomTel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.tbNomTel.Location = new System.Drawing.Point(410, 37);
             this.tbNomTel.Name = "tbNomTel";
             this.tbNomTel.PlaceholderText = "+7...";
-            this.tbNomTel.Size = new System.Drawing.Size(127, 32);
+            this.tbNomTel.Size = new System.Drawing.Size(127, 27);
             this.tbNomTel.TabIndex = 41;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(192, 188);
+            this.btnAdd.Location = new System.Drawing.Point(410, 90);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(159, 43);
+            this.btnAdd.Size = new System.Drawing.Size(127, 60);
             this.btnAdd.TabIndex = 42;
             this.btnAdd.Text = "Добавить";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -158,7 +158,8 @@
             this.Controls.Add(this.lblLogin);
             this.Controls.Add(this.tbLogin);
             this.Name = "UCAddArendator";
-            this.Size = new System.Drawing.Size(585, 250);
+            this.Size = new System.Drawing.Size(638, 210);
+            this.Load += new System.EventHandler(this.UCAddArendator_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

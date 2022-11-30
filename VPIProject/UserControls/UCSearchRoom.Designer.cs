@@ -43,7 +43,7 @@
             // 
             // txtboxSpace
             // 
-            this.txtboxSpace.Location = new System.Drawing.Point(176, 33);
+            this.txtboxSpace.Location = new System.Drawing.Point(242, 32);
             this.txtboxSpace.Name = "txtboxSpace";
             this.txtboxSpace.PlaceholderText = "Не менее";
             this.txtboxSpace.Size = new System.Drawing.Size(151, 27);
@@ -52,7 +52,7 @@
             // 
             // txtboxFloor
             // 
-            this.txtboxFloor.Location = new System.Drawing.Point(358, 33);
+            this.txtboxFloor.Location = new System.Drawing.Point(424, 32);
             this.txtboxFloor.Name = "txtboxFloor";
             this.txtboxFloor.PlaceholderText = "Не менее";
             this.txtboxFloor.Size = new System.Drawing.Size(151, 27);
@@ -61,7 +61,7 @@
             // 
             // txtboxCost
             // 
-            this.txtboxCost.Location = new System.Drawing.Point(7, 33);
+            this.txtboxCost.Location = new System.Drawing.Point(73, 32);
             this.txtboxCost.Name = "txtboxCost";
             this.txtboxCost.PlaceholderText = "Не более";
             this.txtboxCost.Size = new System.Drawing.Size(151, 27);
@@ -71,7 +71,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(176, 7);
+            this.label1.Location = new System.Drawing.Point(242, 6);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 20);
             this.label1.TabIndex = 3;
@@ -80,7 +80,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(358, 10);
+            this.label2.Location = new System.Drawing.Point(424, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 20);
             this.label2.TabIndex = 4;
@@ -89,7 +89,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 10);
+            this.label3.Location = new System.Drawing.Point(73, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 20);
             this.label3.TabIndex = 5;
@@ -98,7 +98,7 @@
             // cbFurniture
             // 
             this.cbFurniture.AutoSize = true;
-            this.cbFurniture.Location = new System.Drawing.Point(7, 98);
+            this.cbFurniture.Location = new System.Drawing.Point(73, 97);
             this.cbFurniture.Name = "cbFurniture";
             this.cbFurniture.Size = new System.Drawing.Size(85, 24);
             this.cbFurniture.TabIndex = 10;
@@ -108,7 +108,7 @@
             // cbCondition
             // 
             this.cbCondition.AutoSize = true;
-            this.cbCondition.Location = new System.Drawing.Point(7, 73);
+            this.cbCondition.Location = new System.Drawing.Point(73, 72);
             this.cbCondition.Name = "cbCondition";
             this.cbCondition.Size = new System.Drawing.Size(128, 24);
             this.cbCondition.TabIndex = 11;
@@ -117,7 +117,7 @@
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(176, 73);
+            this.btnSearch.Location = new System.Drawing.Point(242, 72);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(151, 54);
             this.btnSearch.TabIndex = 12;
@@ -128,7 +128,7 @@
             // btnNext
             // 
             this.btnNext.Enabled = false;
-            this.btnNext.Location = new System.Drawing.Point(405, 300);
+            this.btnNext.Location = new System.Drawing.Point(471, 299);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(100, 40);
             this.btnNext.TabIndex = 14;
@@ -139,7 +139,7 @@
             // btnPrev
             // 
             this.btnPrev.Enabled = false;
-            this.btnPrev.Location = new System.Drawing.Point(25, 300);
+            this.btnPrev.Location = new System.Drawing.Point(91, 299);
             this.btnPrev.Name = "btnPrev";
             this.btnPrev.Size = new System.Drawing.Size(100, 40);
             this.btnPrev.TabIndex = 15;
@@ -151,7 +151,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Controls.Add(this.btnPrev);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnSearch);
@@ -164,7 +164,7 @@
             this.Controls.Add(this.txtboxFloor);
             this.Controls.Add(this.txtboxSpace);
             this.Name = "UCSearchRoom";
-            this.Size = new System.Drawing.Size(543, 360);
+            this.Size = new System.Drawing.Size(638, 360);
             this.Load += new System.EventHandler(this.UCSearchRoom_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

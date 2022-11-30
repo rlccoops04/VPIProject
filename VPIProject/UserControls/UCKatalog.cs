@@ -33,7 +33,7 @@ namespace VPIProject
                 if (!unfreerooms.Contains(room.NumRoom))
                 {
                     UCRoom ucRoom = new(room);
-                    ucRoom.Location = new Point(50, i);
+                    ucRoom.Location = new Point(75, i);
                     ucRoom.Hide();
                     Controls.Add(ucRoom);
                     roomList.Add(ucRoom);

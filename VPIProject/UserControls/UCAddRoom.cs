@@ -52,7 +52,7 @@ namespace VPIProject
             }
             db.Rooms.Add(room);
             db.SaveChanges();
-
+            txtboxNumRoom.Text = "";
             txtboxSpace.Text = "";
             txtboxFloor.Text = "";
             txtboxCost.Text = "";
